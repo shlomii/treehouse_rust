@@ -1,4 +1,4 @@
-//from hands of rust book
+//With help of the great book hands on rust
 #![warn(clippy::all, clippy::pedantic)]
 use std::io::stdin;
 
