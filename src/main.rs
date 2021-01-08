@@ -26,7 +26,7 @@ impl Visitor {
     }
     fn greet_visitor(&self) {
         match &self.action {
-            VisitorAction::Accept => println!("Welcome to the tree house."),
+            VisitorAction::Accept => println!("Generic message: Welcome to the tree house."),
             VisitorAction::Probation => println!("Probation"),
             VisitorAction::AcceptWithNote { note } => println!("{}", note),
             _ => println!("Go away!"),
